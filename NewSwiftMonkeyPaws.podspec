@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "SwiftMonkeyPaws"
+  s.name         = "NewSwiftMonkeyPaws"
   s.version      = "1.0"
   s.summary      = "Visualisation of input events, especially useful during UI testing."
   s.description  = <<-DESC
