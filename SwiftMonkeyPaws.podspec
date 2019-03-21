@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SwiftMonkeyPaws"
-  s.version      = "2.1.1"
+  s.version      = "1.0"
   s.summary      = "Visualisation of input events, especially useful during UI testing."
   s.description  = <<-DESC
                    Visualise all touch events in a layer on top of
@@ -8,13 +8,12 @@ Pod::Spec.new do |s|
                    SwiftMonkey monkey testing library, but can also
                    be used on its own.
                    DESC
-  s.homepage     = "https://github.com/zalando/SwiftMonkey"
-  s.license      = { type: 'MIT', file: 'LICENSE' }
-  s.author       = { "Dag Ågren" => "dag.agren@zalando.fi" }
-  s.social_media_url = "http://twitter.com/WAHa_06x36"
+  s.homepage     = "https://github.com/didiaodanding/SwiftMonkeyPaws"
+  s.license      = "MIT"
+  s.author       = { "haleli" => "1404012659@qq.com" }
+  s.social_media_url = "https://github.com/didiaodanding"
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "https://github.com/zalando/SwiftMonkey.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/didiaodanding/SwiftMonkeyPaws.git", :tag => "#{s.version}" }
   s.source_files = "SwiftMonkeyPaws/*.swift"
   s.swift_version = "4.2"
-  s.exclude_files = "SwiftMonkeyPaws/Package.swift"
 end
